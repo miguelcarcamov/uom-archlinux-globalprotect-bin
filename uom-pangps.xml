@@ -5,6 +5,6 @@
         <default-browser>yes</default-browser>
     </Settings>
     <PanSetup>
-        <Portal>vpn.unimelb.edu.au</Portal>
+        <Portal>vpnconnect.manchester.ac.uk</Portal>
     </PanSetup>
 </GlobalProtect>
