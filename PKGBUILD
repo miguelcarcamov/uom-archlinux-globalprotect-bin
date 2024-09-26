@@ -1,8 +1,8 @@
 # Maintainer: Darkfish Tech <arch at darkfish dot com dot au>
 
 pkgname=globalprotect-bin
-pkgver=6.1.2.0
-pkgrel=82
+pkgver=6.1.4.0
+pkgrel=711
 pkgdesc="GlobalProtect VPN Client Agent for The University of Manchester"
 arch=('x86_64')
 url="https://www.itservices.manchester.ac.uk/ourservices/popular/vpn/"
@@ -37,5 +37,5 @@ package() {
     install -Dm644 "$srcdir"/uom-pangps.xml $GPDIR/pangps.xml
 
 }
-sha256sums=('f13c69232f21d5401bbeddbe2638b6e3f4b49870ce81398a6f2f2d5a2a787986'
-            '62c441b491f0f36ec6b9ab9d9fe42881cad1f784cf185c2c0e1614732dee8ba6')
+md5sums=('d5265bd523b137334baa1511dc499698'
+         'ad5a1512c694d09f76913c7c7e5f9c67')
